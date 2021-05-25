@@ -1,0 +1,9 @@
+.App {
+  width: 50rem;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 16rem 30rem;
+  gap: 1rem;
+  margin: 5rem auto;
+}

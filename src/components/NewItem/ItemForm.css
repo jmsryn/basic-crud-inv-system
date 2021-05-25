@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-item__controls {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 100%;
+}
+
+.new-item__controls label {
+  font-weight: bold;
+  color: white;
+}
+
+.new-item__actions {
+  width: 100%;
+  display: flex;
+}
+
+.new-item__actions button {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem auto;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-align: center;
+}

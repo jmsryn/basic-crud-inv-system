@@ -1,0 +1,44 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #4b5f73;
+  color: white;
+
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+td,
+tr {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #eee;
+}
+
+.btn-edit,
+.btn-del {
+  border: none;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-del {
+  background-color: #d9534f;
+}
+
+.btn-edit {
+  background-color: #5cb85c;
+}
+
+.table-actions {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,7 @@
+.new-phones {
+  background-color: white;
+  grid-column: span 2;
+  /* padding: 1rem; */
+  overflow: hidden;
+  overflow-y: scroll;
+}
